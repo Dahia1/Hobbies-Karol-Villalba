@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+header {
+width: 100%;
+height: 100vh;
+background: url(../Img/Cosplays.jpg);
+background-size: cover;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* navegador */
+
+nav { 
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav .Logo {
+    width: 30%;
+    display: inline-block;
+}
+
+nav ul {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+
+#hero {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#hero img {
+    transition: .4s;
+}
+
+#hero img:hover {
+    transform: scale(1.2) rotate(-360deg);
+}
+
+#hero h1 {
+    font-size: 60px;
+    color: #4822f1; 
+    margin: 0;
+    font-weight: 500;
+}
+
+#hero p {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 26px;
+    margin: 0;
+}
+
+#hero button {
+    background: #7a13db;
+    padding: 15px 40px;
+    font-size: 30px;
+    color: #999999;
+    border-radius: 10px;
+    border: 0 transparent;
+    margin-top: 60px;
+    transition: .4s;
+}
+
+#hero button:hover {
+    transform: scale(0.8);
+    background: rgb(99, 209, 236);
+    color: #ffffff;
+    border-radius: 0;
+}
+
+/* animes */
+
+#animes {
+    width: 100%;
+    background: #58a2f7;
+    padding: 70px 0;
+    text-align: center;
+}
+
+#animes .container h2 {
+    font-size: 35px;
+}
+
+#animes .container p {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+#animes .container .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#animes .container .row .item_planes {
+    position: relative;
+    padding: 10px;
+    transition: 4s;
+}
+
+#animes .row .item_planes img {
+    transition: .4s;
+}
+
+#animes .row .item_planes:hover img{
+    border-radius: 50%;
+}
+
+#animes .row .item_planes:hover h2 {
+    color: #1d81bb;
+}
+
+#animes .row .item_planes:hover {
+    box-shadow: 0 0px 9px 0px #e2dada;
+}
+
+#animes .container .row .item_planes h2 {
+    color: #ad39f0;
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    transition: .4s;
+}
+
+/* ropa */
+
+#ropa {
+    width: 100%;
+    background-size: cover;
+}
+
+#ropa .container h2 {
+    font-size: 35px;
+    color: #5c0cf0;
+    padding-top: 130px;
+    text-align: center;
+}
+
+#ropa .container .row {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#ropa .container .row .espacios .item_destinos h2 {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#ropa .container .row .espacios .item_destinos {
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#ropa .container .row .item_destinos img {
+    transition: .6s;
+}
+
+#ropa .container .row .item_destinos:hover img {
+    transform: rotate(-360deg);
+}
+
+
+/* contacto */
+
+#contacto {
+    width: 100%;
+    background: #58a2f7;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+#contacto h2 {
+    font-size: 40px;
+}
+
+#contacto p {
+    font-size: 24px;
+}
+
+#contacto .container .row .campo-f {
+    width: 300px;
+    padding: 12px 14px;
+    border-radius: 4px;
+    margin: 10px 10px;
+    font-size: 20px;
+    border: 1px solid #999999;
+}
+
+#contacto .container .row select {
+    width: 332px !important; 
+}
+
+#contacto .container form button {
+    background: #7a13db;
+    color: #ffffff;
+    padding: 12px 50px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* footer */
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 80px;
+    font-size: 20px;
+
+}
